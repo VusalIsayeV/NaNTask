@@ -1,0 +1,99 @@
+{
+    "Markalar": [
+        {
+            "id":1,
+            "Marka": "Mercedes",
+            "Model": [
+                {
+                    "Model": "E 200d"
+                },
+                {
+                    "Model": "E 200"
+                },
+                {
+                    "Model": "C 200"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "Marka": "BMW",
+            "Model": [
+                {
+                    "Model": "520d"
+                },
+                {
+                    "Model": "530"
+                },
+                {
+                    "Model": "XM"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "Marka": "Audi",
+            "Model": [
+                {
+                    "Model": "A6"
+                },
+                {
+                    "Model": "Q7"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "Marka": "Volvo",
+            "Model": [
+                {
+                    "Model": "XC60"
+                },
+                {
+                    "Model": "XC90"
+                }
+            ]
+        },
+        {
+            "id":5,
+            "Marka": "Lada",
+            "Model": [
+                {
+                    "Model": "vsv"
+                }
+            ]
+        },
+        {
+            "id":6,
+            "Marka": "Daewo",
+            "Model": [
+                {
+                    "Model": "vdsv"
+                }
+            ]
+        },
+        {
+            "id":7,
+            "Marka": "Jeep",
+            "Model": [
+                {
+                    "Model": "sdvv"
+                }
+            ]
+        },
+        {
+            "id":8,
+            "Marka": "LandRover",
+            "Model": [
+                {
+                    "Model": "svdv"
+                }
+            ]
+        }
+    ],
+    "Kuza":[
+        {"Kuza":"Sedan"},
+        {"Kuza":"Off-Road"},
+        {"Kuza":"Minivan"}
+    ]
+}

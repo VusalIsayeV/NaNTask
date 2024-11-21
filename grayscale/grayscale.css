@@ -1,0 +1,381 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    height: 110vh;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(	https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.navdiv1{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.navdiv2{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navdiv1ic{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navdiv1ic{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.navdiv2ic ul li{ 
+    display: inline-block;
+    padding: 20px;  
+    
+}
+.navdiv2ic ul li a:hover{
+    color: white;
+}
+.navdiv2ic ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(233, 224, 224, 0.685);
+}
+.navdiv1ic h1{
+    font-size: 25px;
+    color: rgba(233, 224, 224, 0.685);
+    margin-top: 5px;
+    margin-right: 15px;
+
+}
+.headeresas{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+.headeresasic{
+    width: 60%;
+    width: 60%;
+    height: 60%;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    
+
+}
+.headeresasic h1{
+    font-size: 110px;
+    color: rgba(233, 224, 224, 0.685);
+    
+}
+.headeresasic p{
+    
+    font-size: 20px;
+    color: rgba(233, 224, 224, 0.685);
+    
+}
+.headeresasicP{
+    width: 60%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.headeresasic button{
+    padding: 20px 30px;
+    margin-top: 35px;
+    background-color: #64a19d;
+    color: white;
+    border: none;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    box-sizing: border-box;
+}
+.section1div1{
+    width:100%;
+    height: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+
+}
+.section1div1ic{
+    width:50%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.section1div1ic h2{
+    color: white;
+    font-size: 40px;
+}
+.section1div1ic p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+.section1div1ic a{
+    color:#64a19d;
+}
+.section1div2{
+    width:100%;
+    height: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-end;
+
+}
+.section1div2 img{
+    width: 80%;
+}
+.section2{
+    width: 100%;
+    height: 260vh;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
+.section2img1{
+    width: 50%;
+    height: 26%;
+    box-sizing: border-box;
+    margin-top: 4%;
+
+}
+.section2tesvir{
+    width: 25%;
+    height: 26%;
+    box-sizing: border-box;
+    margin-top: 4%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+.section2img2{
+    width: 75%;
+    height: 45%;
+    box-sizing: border-box;
+    margin-bottom: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+}
+.section2img2ic{
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    background-color: #000;
+}
+.section2img1 img{
+    width: 100%;
+}
+.section2tesvir h3{
+    font-size: 30px;
+}
+.section2tesvir p{
+    font-size: 20px;
+    margin: 0px 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.section2tesviric{
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    
+}
+.section2img2 img{
+    width: 100%;
+}
+.img2ic{
+    width: 80%;
+    height: 50%;
+
+}
+.img2ic h3{
+    font-size: 30px;
+    color: white;
+}
+.img2ic p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.section3{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(	https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section3div{
+    width: 60%;
+    height: 50%;
+    box-sizing: border-box;
+}
+.section3div1{
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.section3div2{
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+}
+.section3div1 i,h3{
+    font-size: 40px;
+    color: white;
+}
+.section3div1 i{
+    margin-top: 7%;
+}
+.section3div2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section3div2 input{
+    width: 500px;
+    height: 50px;
+}
+.section3div2 button{
+    width: 140px;
+    height: 54px;
+    background-color: #1cabc4;
+    border: none;
+    margin-left: 20px;
+}
+.section4{
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.section4div1{
+    width: 80%;
+    height: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.section4div2{
+    width: 100%;
+    height: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.section4div1ic{
+    width: 30%;
+    height: 70%;
+    box-sizing: border-box;
+    background-color: white;
+}
+.section4div1 i{
+    color: #1cabc4;
+    margin-top: 20%;
+}
+.section4div1 h4,p{
+    color: rgba(0, 0, 0, 0.5);
+}
+.section4div1 a{
+    color:#64a19d;
+}
+.section4div1 a:hover{
+    color:#335351;
+}
+.section4div2 i{
+    color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    background-color: #FFFFFF1A;
+    border-radius: 100%;
+    font-size: 20px;
+    margin: 15px;
+
+}
+.section4div2 i:hover{
+    color: white;
+}
+footer{
+    width: 100%;
+    height: 20vh;
+    box-sizing: border-box;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.footerdiv{
+    width: 30%;
+    box-sizing: border-box;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+
+

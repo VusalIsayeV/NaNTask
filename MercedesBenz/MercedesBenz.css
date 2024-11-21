@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(MercedesBenz.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    height: 10%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.navdivic1{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.H2{
+    padding-right: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(150, 15, 15);
+}
+.H2:hover{
+    color: red;
+}
+.navdivic2{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.list ul li{
+    display: inline-block;
+    padding: 15px 20px 0px 20px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: rgb(150, 15, 15);
+    font-size: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.list ul li a:hover{
+    color: red;
+}
+.section1{
+    height: 50vh;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.section1div{
+    width: 50%;
+}
+.section1div h1{
+    color: white;
+    text-align: center;
+}
+.section2{
+    height:100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 0.5) 5%, #000 100%), url(Red.jpg);
+    background-position: center;
+    background-size: cover;
+}

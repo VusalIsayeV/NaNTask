@@ -1,0 +1,339 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2c3e50;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.WebName h1{
+    font-size: 30px;
+    color: white;
+    
+}
+.WebName a{
+    text-decoration: none;
+    color: white;
+}
+.AboutList{
+    margin-left: 20%;
+    
+}
+.AboutList ul li{
+    display: inline-block;
+    font-size: 17px;
+    padding: 5px 25px;
+}
+.AboutList ul li a{
+    text-decoration: none;
+    color: white;
+}
+.AboutList ul li a:hover{
+    color: #1abc9c;
+    transition: 0.5s;
+}
+.section1{
+    width: 100%;
+    /* height: 95vh; */
+    background-color: #1abc9c;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+}
+.section1div{
+    text-align: center;
+}
+.section1 img{
+    width: 15rem;
+    margin-top: 15%;
+}
+.section1 h1{
+    font-size: 70px;
+    margin-top: 5%;
+}
+.section1 hr{
+    width: 15%;
+    margin: 2% 2% 0 ;
+    height: 0.4rem;
+    background-color: white;
+    display: inline-block;
+    
+}
+.section1 i{
+    font-size: 30px;
+    margin: 4% 0% 0;
+}
+.section1 h3{
+    margin: 7% 0 15%;
+}
+.section2{
+    width: 100%;
+    /* height: 30vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: center;
+     
+    text-align: center;
+    color: #2c3e50;
+}
+.section2div h2{
+    font-size:55px;
+    margin-top: 30%;
+}
+.section2div hr{
+    width: 40%;
+    margin: 4% 2% 0 ;
+    height: 0.4rem;
+    display: inline-block;
+    background-color: #2c3e50;
+}
+.section2div i{
+    font-size: 30px;
+    margin: 4% 0% 0;
+}
+.section3{
+    width: 100%;
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imgdiv{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline; 
+} 
+.imgDivHover{
+    position: relative; 
+    width: 32%;
+    height: 250px;
+    margin: 20px 1px;
+    display: block;
+      
+}
+.imgDivHover img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+.imgtext{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+}
+.imgDivHover:hover .imgtext{
+    opacity: 1;
+}
+.imgtext h1{
+    text-align: center;
+    font-size: 140px;
+    color: white;
+}
+
+.section4{
+    width: 100%;
+    /* height: 30vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    text-align: center;
+    color: #ffffff;
+    background-color: #1abc9c;
+}
+.section4div{
+     
+    width: 30%;
+}
+.section4div h2{
+    font-size: 60px;
+    margin-top: 21%;
+}
+.section4div hr{
+    width: 40%;
+    margin: 4% 2% 0 ;
+    height: 0.4rem;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.section4div i{
+    font-size: 30px;
+    margin: 4% 0% 0; 
+}
+.section5{
+    width: 100%;
+    /* height: 70vh; */
+    background-color: #1abc9c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section5div{
+    width: 60%;
+    height: 85%;
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section5div p{
+    width: 49%;
+    display: inline-block;
+    padding: 5%;
+    font-size: 22px;
+    color: white;
+}
+.section5div a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:15px 50px;
+    height: 15%;
+    margin-bottom: 5%;
+}
+.section5 a:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.section7{
+    width: 100%;
+    /* height:100vh; */
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 30px;
+}
+.section7 input{
+    width: 100%;
+    height:70px;
+    font-size: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+#text{
+    height: 140px;
+}
+#Send{
+    width: 18%;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1abc9c;
+    color: aliceblue;
+    margin-bottom: 5%;
+}
+.section7div{
+    width: 50%;
+     
+}
+.section8{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     
+    background-color: #2c3e50;
+    color: white;
+
+}
+.section8 h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.section8div1 p{
+    font-size: 25px;
+    padding: 0 10px;
+}
+.section8div3 p{
+    font-size: 25px;
+    
+}
+.section8div3 p a{
+    color: #1abc9c;
+}
+.section8div2 a{
+    color: white;
+}
+.section8div2 i{
+    font-size: 20px;
+    padding: 12px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.section8div2 i:hover{
+    color:black;
+    background-color: white;
+    transition: 0.5s;
+}
+.section8div1,.section8div2,.section8div3{
+    width: 24%;
+     
+    text-align: center;
+    padding-top: 5%;
+}
+.section8div1{
+    margin-left: 10%;
+}
+.section8div3{
+    margin-right: 10%;
+}
+footer{
+    width: 100%;
+    height: 12vh;
+    background-color: #1a252f;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media(max-width:1080px){
+    .imgDivHover{
+        width: 45%;
+    }
+    .section5div p{
+        width: 80%;
+    }
+}
+@media(max-width:768px){
+    .imgDivHover{
+        width: 90%;
+    }
+}

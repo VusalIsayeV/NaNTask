@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.Product{
+    position: relative;
+    width: 30%;
+    height: 80%;
+    border: 2px solid black;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 1;
+}
+.Product img{
+    width: 80%;
+    height: 300px;
+    padding: 10% 0% 5%;
+}
+.Product h2{
+    font-size: 40px;
+}
+.Product p{
+    padding: 0% 10%;
+}
+.Modal{
+    position: absolute;
+    width: 80%;
+    height: 95%;
+    border: 1px solid black;
+    background-color: black;
+    z-index: 2;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+}
+.Modal img{
+    width: 60%;
+    margin: 0 15%;
+}
+.Modal h2{
+    font-size: 60px;
+}
+.Modal p{
+    font-size: 30px;
+    padding: 0% 10%;
+}

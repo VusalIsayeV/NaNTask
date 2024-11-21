@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Vısual Studıo Code",
+			"path": "../.."
+		},
+		{
+			"path": "../../../Users/Vusal/OneDrive/Masaüstü/startbootstrap-shop-homepage-gh-pages"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Vısual Studıo Code",
+		"liveServer.settings.port": 5501
+	}
+}

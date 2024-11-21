@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url("https://cdnsta.avansas.com/mnresize/900/-/urun/80217/galaxy-1962k-premium-duvar-saati-46-cm-zoom-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Main{
+    height: 100%;
+    width: 50%;
+    
+}
+.Eqreb{
+    width: 12px;
+    height: 120px;
+    background-color: red;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    z-index: 2;
+    transform-origin: bottom;
+}
+.Deqiqe{
+    width: 8px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    z-index: 1;
+    transform-origin: bottom;
+}
+.Saniye{
+    width: 4px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    z-index: 0;     
+    transform-origin: bottom;
+}

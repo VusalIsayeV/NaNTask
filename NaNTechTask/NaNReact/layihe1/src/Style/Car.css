@@ -1,0 +1,11 @@
+.card{
+    height: 400px;
+    /* background-color: rgb(134, 96, 142); */
+    /* background: linear-gradient(to top, rgb(216, 145, 239), rgb(113, 21, 132)); */
+}
+.card-img-top{
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}

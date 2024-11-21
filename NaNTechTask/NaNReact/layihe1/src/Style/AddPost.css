@@ -1,0 +1,7 @@
+.hov{
+    background-color: white;
+}
+.hov:hover{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.Active{
+    background-color: aqua;
+    color: red;
+}
+*{
+    height: auto;
+}
+.btn{
+    width: 150px;
+    border-radius: 1rem;
+}

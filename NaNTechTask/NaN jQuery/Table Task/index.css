@@ -1,0 +1,105 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+ }
+.section1{
+    width: 100%;
+    height: 7vh;
+    /* border: 1px dotted red; */
+    text-align: center;
+}
+.section1 input{
+    width: 29%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+#Add{
+    width: 9%;
+    height: 100%;
+    background-color: blue;
+}
+.section2{
+    width: 100%;
+    height: 7vh;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Axtaris{
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.section3{
+    width: 100%;
+    height: 78vh;
+    border-top: 10px solid white;
+    position: relative;
+}
+table{
+    width: 100%;
+}
+.Edit{
+    width: 10%;
+}
+.Delete{
+    width: 10%;
+}
+.Edit button ,.Delete button{
+    width: 100%;
+}
+.Edit button{
+    background-color: green;
+}
+.Edit button:hover{
+    background-color: rgba(0, 128, 0, 0.576);
+}
+.Delete button{
+    background-color: red;
+}
+.Delete button:hover{
+    background-color: rgba(255, 0, 0, 0.576);
+}
+.EditDiv{
+    width: 70%;
+    height: 80%;
+    background-color: aliceblue;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    border: 1px dotted red;
+    display: block;
+}
+.EditDiv input{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+.Save{
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+}
+.Exit{
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+
+}
+.EditMain {
+    display: none;
+}
